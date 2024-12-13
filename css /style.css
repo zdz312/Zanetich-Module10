@@ -129,37 +129,43 @@ html, body {
     text-decoration: none;
 }
 
+
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: row; 
-        gap: 5px; 
+        flex-direction: row;
+        gap: 10px; 
     }
 
     .nav-buttons {
-        flex-direction: row; 
-        gap: 5px; /
+        flex-direction: row;
+        gap: 10px; 
     }
 
     .nav-buttons button {
         width: 100%;
-        font-size: clamp(10px, 1.2vw, 14px); 
-        padding: 6px 10px; 
+        font-size: clamp(12px, 2vw, 16px); 
+        padding: 12px 15px; 
     }
+
     .logo img {
-        height: clamp(50px, 4vw, 30px); 
-        margin: 5px; 
+        height: clamp(60px, 5vw, 40px);
+        margin: 5px;
         padding: 5px;
     }
+
     .icon-button i {
-        font-size: 16px;
+        font-size: 18px; 
     }
+
     .icon-button {
-        padding: 6px;}
+        padding: 10px; 
+    }
 
     .logo.active img {
         padding: 5px;
-
     }
+}
+
 
     }
 
