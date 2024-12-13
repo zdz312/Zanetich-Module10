@@ -133,32 +133,32 @@ html, body {
 @media (max-width: 768px) {
     .navbar {
         flex-direction: row;
-        gap: 10px; 
+        gap: 5px; 
     }
 
     .nav-buttons {
         flex-direction: row;
-        gap: 10px; 
+        gap: 5px; 
     }
 
     .nav-buttons button {
         width: 100%;
-        font-size: clamp(12px, 2vw, 16px); 
+        font-size: clamp(10px, 1.5vw, 16px); 
         padding: 12px 15px; 
     }
 
     .logo img {
-        height: clamp(60px, 5vw, 40px);
+        height: clamp(50px, 4vw, 30px);
         margin: 5px;
         padding: 5px;
     }
 
     .icon-button i {
-        font-size: 18px; 
+        font-size: 16px; 
     }
 
     .icon-button {
-        padding: 10px; 
+        padding: 6px; 
     }
 
     .logo.active img {
